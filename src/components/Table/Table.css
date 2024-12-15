@@ -1,0 +1,52 @@
+.table-title, .table-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-title {
+  padding: 0 45px 0 25px;
+  margin-bottom: 20px;
+}
+
+.table-title span:nth-child(2) {
+  padding-right: 10px;
+}
+
+.table-body {
+  border: 1px solid #000;
+  border-radius: 25px;
+  box-shadow: inset 1px 1px 2px #686868;
+}
+
+.table-entry {
+  padding: 0 50px 0 30px;
+  margin-bottom: 28px;
+}
+
+.table-entry:first-child {
+  margin-top: 22px;
+}
+
+.table-entry .entry-distance {
+  display: flex;
+  justify-content: flex-end;
+  width: 30px;
+}
+
+.entry-button {
+  border: none;
+  margin: 0 0.1em;
+}
+
+.delete {
+  font-weight: 600;
+}
+
+.delete:hover {
+  color: red;
+}
+
+.edit:hover {
+  color: green;
+}

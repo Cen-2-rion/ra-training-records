@@ -1,0 +1,26 @@
+#root {
+  max-width: 1920px;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto-Regular', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 530px;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+button {
+  font-family: inherit;
+  background-color: inherit;
+  cursor: pointer;
+}

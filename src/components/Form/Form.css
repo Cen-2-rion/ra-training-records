@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 15px 0 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+.submit-button {
+  min-width: 85px;
+  border-bottom: 4px solid #686868;
+  transition: background-color 0.2s, border-bottom 0.1s, box-shadow 0.1s;
+
+  &:hover {
+    background-color: #f1f1f1;
+  }
+
+  &:active {
+    border-bottom: 1px solid #999999;
+    box-shadow: inset 1px 1px 2px #686868;
+  }
+}
+
+label {
+  margin: 0 0 10px 5px;
+}
+
+.date, .distance {
+  min-width: 192px;
+  font-family: Roboto-Italic, Arial, Helvetica, sans-serif;
+  font-size: inherit;
+  color: #686868;
+  letter-spacing: 0.1rem;
+  box-shadow: inset 1px 1px 2px #686868;
+
+  &::-webkit-calendar-picker-indicator,
+  &::-webkit-inner-spin-button {
+    display: none;
+  }
+
+}
+.date:focus, .distance:focus {
+  outline: none;
+}
